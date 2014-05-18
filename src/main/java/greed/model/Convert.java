@@ -109,7 +109,6 @@ public class Convert {
         String[] constraints = new String[problem.getConstraints().length];
         for (int i = 0; i < constraints.length; ++i)
             constraints[i] = commonTCXMLFixes(problem.getConstraints()[i].toXML());
-
         
         com.topcoder.shared.problem.ProblemCustomSettings pcs;
         pcs = problem.getComponent().getProblemCustomSettings();
