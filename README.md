@@ -25,7 +25,7 @@ Downloads
 
 Go to [Releases](https://github.com/shivawu/topcoder-greed/releases) page.
 
-* [2.0-RC](https://github.com/shivawu/topcoder-greed/releases/download/2.0-RC/Greed-2.0-RC.jar)
+* [2.0-RC (**Updated, Comptiable with Arena 7.1.0, 2014/2/18**)](https://github.com/shivawu/topcoder-greed/releases/download/2.0-RC/Greed-2.0-RC-7.1.0.jar)
 * [2.0-beta](https://github.com/shivawu/topcoder-greed/releases/download/2.0-beta/Greed-2.0-beta.jar)
 * Legacy [1.5](https://github.com/shivawu/topcoder-greed/releases/download/1.5/Greed-1.5.jar)  
   Note that the 2.0 is not compatiable with 1.x versions. Latest versions are recommended.
@@ -61,7 +61,7 @@ Things you can do with this config,
 ### greed.codeRoot
 
 Change where your code is stored, via `greed.codeRoot = ???`, this path is relative to your workspace root.
-Default set to `.`, which means workspace root.
+Default set to `${Contest.Name}`, which means a folder with the name of the current contest under your workspace root.
 
 ### greed.language.\<lang\>
 
